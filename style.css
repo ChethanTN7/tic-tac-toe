@@ -1,0 +1,68 @@
+body{
+    background-color: rgba(137, 43, 226, 0.511);
+}
+#main-container{
+    margin: auto;
+    width: 500px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(169, 57, 244);
+    box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.998);
+}
+#heading{
+    background-color: rgb(78, 22, 129);
+    width: 400px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+input[type=button]{
+    align-self: center;
+    padding: 10px;
+    padding-top: 12px;
+    height: 45px;
+    font-size: large;
+    margin-left: 40%;
+    margin-bottom: 10px;
+    background-color: darkviolet;
+    border-radius: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    color: white;
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+    box-shadow: 3px 3px 5px rgb(0, 0, 0);
+    cursor: pointer;
+}
+input[type=button]:active{
+    transform: translate(2px,2px); 
+    background-color: rgb(78, 22, 129);
+    box-shadow: inset 3px 3px 5px rgb(0, 0, 0);
+}
+h1{
+    color: white;
+    font-size: 325%;
+    margin-bottom: 5%;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+table{
+    height: 500px;
+    width: 500px;
+    padding: 15px;
+}
+td{
+    padding: 5px;
+}
+canvas{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 7px 7px 5px rgb(0, 0, 0);
+    cursor: pointer;
+}
+canvas:active{
+    transform: translate(2px,2px);   
+    box-shadow: inset 5px 5px 2px rgb(0, 0, 0);
+}
